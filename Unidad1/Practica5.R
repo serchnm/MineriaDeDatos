@@ -75,8 +75,13 @@ levels(stats$Income.Group)
 
 #Practice
 #Filter countries by Low income
+filter <- stats$Income.Group == "Low income"
+stats[filter,]
 #Filter countries by Lower middle income
+filter <- stats$Income.Group == "Lower middle income"
+stats[filter,]
 #Filter countries by Upper middle income
+stats[stats$Country.Name == "Upper middle income",]
 #Filter by countrie Malta
 stats[stats$Country.Name == "Malta",]
 #Filter by countrie Qatar
