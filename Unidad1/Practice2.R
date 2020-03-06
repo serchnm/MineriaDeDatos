@@ -1,24 +1,4 @@
-?rnorm()
-
-c()
-seq()
-rep()
-
-print()
-
-is.numeric()
-is.integer()
-is.double()
-is.character()
-
-typeof()
-
-sqrt()
-paste()
-
-#?
-
-# Practice find 20 more funtions in R and make an example of it.
+# Practice2 find 20 more funtions in R and make an example of it.
 
 ?dnorm()
 datos <- seq(1,100, 1)
@@ -31,25 +11,16 @@ datos <- seq(1,100, 1)
 qnorm(datos,0, 1)
 ?ls()
 ls()
-[1] "Data"              "FieldGoalAttempts" "FieldGoals"        "Games"             "MinutesPlayed"    
-[6] "Players"           "Points"            "Salary"            "Seasons"  
+
 ?abs()
 abs(-5151516193)
 5151516193
 ?all()
 all(Points, Games)
-[1] FALSE
-all(Points = FALSE, Games = TRUE)
-[1] FALSE
-> all(Points = FALSE, Games = FALSE)
-[1] FALSE
-> all(Points = TRUE, Games = true)
-Error: objeto 'true' no encontrado
-> all(Points = TRUE, Games = TRUE)
-[1] TRUE
+
 ?length()
 length(datoss)
-[1] 100
+
 ?mode()
 mode(integer())
 mode(152)
