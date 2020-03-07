@@ -7,7 +7,7 @@
 
 ### Practice1
 
-#### in the practice a script was created can count how many of these numbers fall betwen -1 and 1 and divide the total of the numbers of N
+#### in the practice a script was created where we check the normal deviation betwene -10 and 10 and count how many of these numbers fall betwen -1 and 1 and divide the total of the numbers of N
 
                 Ejercicio 1
                 x <- seq(-10, 10, by = 1)
