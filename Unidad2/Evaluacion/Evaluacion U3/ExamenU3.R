@@ -24,7 +24,8 @@ set.seed(123)
 split = sample.split(dataset$Purchased, SplitRatio = 0.75)
 training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
-#Hacemos un escalado para las variables que cuentan con el mismo nombre pero no cuentan los mismos datos por si las dudas
+#Hacemos un escalado para las variables que cuentan con el mismo nombre pero no cuentan los mismos 
+#datos por si las dudas
 training_set[-3] = scale(training_set[-3])
 test_set[-3] = scale(test_set[-3])
 #visualizamos los datos del entrenamiento
@@ -42,7 +43,8 @@ cm = table(test_set[, 3], y_pred)
 #Importamos la siguiente libreria para pintar los resultados
 #Declaramos la variable del entrenamiento
 #Se le asigna nombre a los puntos a pintar
-#PPlasmamos la informacion en el plot#Aqui tanto pintamos podmeos asignar los colores para mas variedad de colores
+#PPlasmamos la informacion en el plot#Aqui tanto pintamos podmeos asignar los colores para mas variedad
+#de colores
 #Visite https://www.stat.auckland.ac.nz/~ihaka/downloads/R-colours-a4.pdf
 library(ElemStatLearn)
 set = test_set
