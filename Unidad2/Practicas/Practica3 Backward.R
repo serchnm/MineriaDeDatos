@@ -1,5 +1,5 @@
 getwd()
-setwd("C:/Users/alex9/OneDrive/Documents/Mineria")
+setwd("/Users/sergionavarro/Documents/MineriaDeDatos/Unidad2/Practicas")
 getwd()
 
 # Importing the dataset
