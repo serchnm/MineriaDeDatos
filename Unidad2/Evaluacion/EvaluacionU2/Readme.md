@@ -1,4 +1,5 @@
 ### Unit 2
+* [NaivePoCodeints](#Code) | [Numeric-Factor](#Numeric-Factor) | [Plot](#Plot) | [LibraryAndNewVectorForFilters](#LibraryAndNewVectorForFilters)
 #### Select the folder where the data will be requested
             getwd()
             setwd("C:/Users/alex9/OneDrive/Documents/Mineria")
@@ -8,6 +9,9 @@
             install.packages("ggplot2")
 #### is used for functions such as the filter
             install.packages('dplyr')
+
+#### Code
+
 #### the csv is read to obtain the necessary data from the movies
             Movie <- read.csv("Project-Data.csv")
 #### the first data is displayed
@@ -22,13 +26,14 @@
             str(Movie)
 #### The main characteristics of the data are shown
             summary(Movie)
-
+#### Numeric-Factor
 #### Convert numeric data to a factor
             factor(Movie$Fecha)
             Movie$Fecha <- factor(Movie$Fecha)
 #### Show the important thing from the data
             summary(Movie)
             str(Movie)
+#### LibraryAndNewVectorForFilters
 #### Request the library to use it
             library(dplyr)
 #### create a new vector with every data as we're going to need
@@ -46,4 +51,5 @@
 #### The boxplot graph is used as a support to better visualize the data
             m + geom_jitter() + geom_boxplot(aes(color= Presupuesto, alpha = 0.5))
 
+#### Plot
 ![alt text](https://github.com/serchnm/MineriaDeDatos/blob/Unidad2/Unidad2/Evaluacion/EvaluacionU2/Plot.png)
