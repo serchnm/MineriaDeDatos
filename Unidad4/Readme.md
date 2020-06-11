@@ -23,7 +23,7 @@
             ylab = 'WCSS',
             col = 'tomato')
         
-https://github.com/serchnm/MineriaDeDatos/blob/Unidad4/Unidad4/Evaluacion/Images/Diagram.png
+![alt text](https://github.com/serchnm/MineriaDeDatos/blob/Unidad4/Unidad4/Evaluacion/Images/Diagram.png)
 
 #### Fitting K-Means to the dataset
         set.seed(29)
