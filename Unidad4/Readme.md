@@ -1,6 +1,8 @@
 ### Unidad4
 
+- [Code](#Code) | [Plot](#Plot) | [Cluster](#Cluster)
 
+#### Code
 ##### Get de filepath data
         setwd("/Users/sergionavarro/Documents/MineriaDeDatos/Unidad4/Evaluacion")
 #### returns an absolute filepath representing the current working directory
@@ -22,7 +24,8 @@
             xlab = 'Number of clusters',
             ylab = 'WCSS',
             col = 'tomato')
-        
+
+#### Plot
 ![alt text](https://github.com/serchnm/MineriaDeDatos/blob/Unidad4/Unidad4/Evaluacion/Images/redDiagram.png)
 
 #### Fitting K-Means to the dataset
@@ -45,4 +48,5 @@
                 xlab = 'clouster',
                 ylab = 'Petal length')
                 
+#### Cluster
 ![alt text](https://github.com/serchnm/MineriaDeDatos/blob/Unidad4/Unidad4/Evaluacion/Images/Rplot.png)
