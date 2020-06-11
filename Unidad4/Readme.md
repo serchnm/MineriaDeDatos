@@ -1,6 +1,6 @@
 ### Unidad4
 
-- [Code](#Code) | [Plot](#Plot) | [Cluster](#Cluster)
+- [Code](#Code) | [Plot](#Plot) | [K-Means](#K-Means) | [Cluster](#Cluster)
 
 #### Code
 ##### Get de filepath data
@@ -28,6 +28,7 @@
 #### Plot
 ![alt text](https://github.com/serchnm/MineriaDeDatos/blob/Unidad4/Unidad4/Evaluacion/Images/redDiagram.png)
 
+#### K-Means
 #### Fitting K-Means to the dataset
         set.seed(29)
         kmeans = kmeans(x = iris, centers = 3)
