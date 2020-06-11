@@ -3,7 +3,7 @@ install.packages("naivebayes")
 install.packages("e1071")
 #Indicamos la ruta de nuestro archivo
 getwd()
-setwd("/Users/sergionavarro/Documents/MineriaDeDatos/Unidad2/Evaluacion")
+setwd("/Users/sergionavarro/Documents/MineriaDeDatos/Unidad2/Evaluacion/EvaluacionU3")
 getwd()
 # Declaramos una varable donde importaremos nuestro dataSet y le asignamos el tamaño de las columnas
 dataset = read.csv('Social_Network_Ads.csv')
