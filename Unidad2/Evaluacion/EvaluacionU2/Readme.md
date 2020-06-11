@@ -1,5 +1,5 @@
 ### Unit 2
-* [NaivePoCodeints](#Code) | [Numeric-Factor](#Numeric-Factor) | [LibraryAndNewVectorForFilters](#LibraryAndNewVectorForFilters) | [Plot](#Plot)
+* [Code](#Code) | [Numeric-Factor](#Numeric-Factor) | [LibraryAndNewVectorForFilters](#LibraryAndNewVectorForFilters) | [Plot](#Plot)
 #### Select the folder where the data will be requested
             getwd()
             setwd("C:/Users/alex9/OneDrive/Documents/Mineria")
